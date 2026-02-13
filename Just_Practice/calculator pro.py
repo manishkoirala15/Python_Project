@@ -32,9 +32,10 @@ while True:
     else:
         result = "Invalid operator!"
 
-    print(f"Result: {result}")  q
+    print(f"Result: {result}")  
 
     cont = input("Do you want to calculate again? (yes/no): ").lower()
     if cont != "yes":
         print("Thank you for using the calculator!")
         break
+        print("Goodbye!")
